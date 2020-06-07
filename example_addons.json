@@ -1,0 +1,17 @@
+[
+    {
+        "repo": "C:/github/techartorg/bqt",
+        "name": "bqt",
+        "enable": false,
+        "persistent": false,
+        "startup": true,
+        "code": "import bqt;bqt.register();bqt.create_global_app();bqt.instantiate_application()"
+    },
+    {
+        "repo": "C:/github/EmbarkStudios",
+        "name": "blender-tools",
+        "enable": true,
+        "persistent": true
+    }
+]
+
