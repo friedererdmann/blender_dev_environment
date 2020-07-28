@@ -1,6 +1,6 @@
 [
     {
-        "repo": "C:/github/techartorg/bqt",
+        "repo": "C:/github/techartorg/bqt/bqt",
         "name": "bqt",
         "enable": false,
         "persistent": false,
@@ -14,4 +14,3 @@
         "persistent": true
     }
 ]
-

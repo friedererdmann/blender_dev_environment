@@ -1,3 +1,4 @@
+pycodestyle
+fake-bpy-module-2.83
 PySide2
-fake-bpy-module-2.82
 pypiwin32

@@ -131,3 +131,5 @@ dmypy.json
 addons.json
 bl_env/
 blender.code-workspace
+
+scripts/addons/
