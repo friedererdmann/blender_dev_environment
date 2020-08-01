@@ -8,13 +8,9 @@ Instead, having the Blender Dev Environment setup makes it as easy as adding you
 
 ## Getting started
 
- 1. Have Python 3.7 installed on your system (some addons require packages to be installed, and we want to match Blender's Python version for that).
+ 1. Create an `addons.json` file - you can simply copy the `example_addons.json` to get started.
 
- 2. Make sure that this Python installation is the first Python installation in your PATH entry (so that when you enter `python` into a command line, it will execute this Python installation).
-
- 3. Create an `addons.json` file - you can simply copy the `example_addons.json` to get started.
-
- 4. __Start Blender by running the blender.bat__
+ 2. __Start Blender by running the blender.bat__
 
 ## Configuration
 ### blender.bat
