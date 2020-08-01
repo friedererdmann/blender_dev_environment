@@ -2,9 +2,13 @@ import os
 import site
 
 env_base_dir = "BASEDIR"
+blender_user_scripts = "BLENDER_USER_SCRIPTS"
 env_venv_name = "BLENDER_ENVIRONMENT"
 
-base_dir = os.environ.get(env_base_dir)
+base_dir = os.path.abspath(
+    os.path.join(
+        os.environ.get(
+            blender_user_scripts), ".."))
 venv_name = os.environ.get(env_venv_name)
 PYTHONPATH = os.environ.get('PYTHONPATH', "")
 

@@ -1,5 +1,6 @@
 set BLENDER_ENVIRONMENT=bl_env
 
+
 if not exist %~dp0%BLENDER_ENVIRONMENT% (
     echo Creating Python Virtual Environment
     echo -      Virtual Environment:  %~dp0%BLENDER_ENVIRONMENT%

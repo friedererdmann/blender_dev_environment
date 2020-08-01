@@ -1,11 +1,13 @@
 echo off
-set BLENDER="C:\Program Files\Blender Foundation\Blender 2.83\blender.exe"
+set BLENDER_DIR=C:\Program Files\Blender Foundation\Blender 2.83
+set BLENDER="%BLENDER_DIR%\blender.exe"
+set BLENDER_PYTHON="%BLENDER_DIR%\2.83\python\bin"
 
-set BASEDIR=%~dp0
-call %~dp0create_env.bat
+set PATH=%BLENDER_PYTHON%;%PATH%
+call "%~dp0create_env.bat"
 
 echo Setting Environment Variables
-set BLENDER_USER_SCRIPTS=%BASEDIR%scripts
+set BLENDER_USER_SCRIPTS=%~dp0scripts
 echo -      BLENDER_USER_SCRIPTS: %BLENDER_USER_SCRIPTS%
 echo.
 

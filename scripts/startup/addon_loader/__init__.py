@@ -24,11 +24,16 @@ class addon_config():
 
 
 def get_addon_configurations():
-    env_base_dir = "BASEDIR"
+    blender_user_scripts = "BLENDER_USER_SCRIPTS"
+
+    base_dir = os.path.abspath(
+        os.path.join(
+            os.environ.get(
+                blender_user_scripts), ".."))
+
     config_file = "addons.json"
-    base_dir = os.environ.get(env_base_dir)
     if not base_dir:
-        print("Couldn't find {0} environment variable.".format(env_base_dir))
+        print("Couldn't find {0} environment variable.".format(blender_user_scripts))
         return []
     addon_file = os.path.join(base_dir, config_file)
     if not os.path.exists(addon_file):
@@ -57,6 +62,7 @@ def get_addon_configurations():
 
 def paths():
     # RELEASE SCRIPTS: official scripts distributed in Blender releases
+    # pylint: disable=assignment-from-no-return
     addon_paths = bpy.utils.script_paths("addons")
 
     # CONTRIB SCRIPTS: good for testing but not official scripts yet
@@ -75,6 +81,7 @@ addon_utils.paths = paths
 
 @persistent
 def load_addons(self):
+    # pylint: disable=assignment-from-no-return
     addon_paths = addon_utils.paths()
 
     print("\nThe following paths are now being considered for Addons:")
@@ -94,7 +101,8 @@ def load_addons(self):
                 addon_utils.enable(
                             module_name=addon.name,
                             persistent=addon.persistent,
-                            default_set=False)
+                            default_set=False,
+                            handle_error=None)
 
 
 bpy.app.handlers.load_post.append(load_addons)
