@@ -2,3 +2,6 @@ pycodestyle
 fake-bpy-module-2.83
 PySide2
 pypiwin32
+PyOpenGL
+pcpp
+bqt

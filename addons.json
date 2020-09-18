@@ -1,0 +1,8 @@
+[
+    {
+        "enable": false,
+        "persistent": false,
+        "startup": true,
+        "code": "import bqt;bqt.register();bqt.create_global_app();bqt.instantiate_application()"
+    }
+]
