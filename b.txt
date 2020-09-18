@@ -1,0 +1,65 @@
+active_annotation_layer None
+active_bone None
+active_editable_fcurve None
+active_gpencil_frame None
+active_gpencil_layer None
+active_object <bpy_struct, Object("Cube")>
+active_operator <bpy_struct, Operator("OBJECT_OT_editmode_toggle")>
+active_pose_bone None
+annotation_data None
+annotation_data_owner None
+area <bpy_struct, Area at 0x000002A9388DE3A8>
+blend_data <bpy_struct, BlendData at 0x000002A93BAF90D8>
+collection <bpy_struct, Collection("Collection")>
+edit_object <bpy_struct, Object("Cube")>
+edit_text <bpy_struct, Text("Text.001")>
+editable_bones None
+editable_fcurves None
+editable_gpencil_layers None
+editable_gpencil_strokes None
+editable_objects [bpy.data.objects['Cube'], bpy.data.objects['Light'], bpy.data.objects['Camera']]
+engine BLENDER_EEVEE
+evaluated_depsgraph_get <bpy_func Context.evaluated_depsgraph_get()>
+gizmo_group None
+gpencil_data None
+gpencil_data_owner None
+image_paint_object None
+layer_collection <bpy_struct, LayerCollection("Collection")>
+mode EDIT_MESH
+object <bpy_struct, Object("Cube")>
+objects_in_mode [bpy.data.objects['Cube']]
+objects_in_mode_unique_data [bpy.data.objects['Cube']]
+particle_edit_object None
+pose_object None
+preferences <bpy_struct, Preferences at 0x00007FF65E624BA0>
+region <bpy_struct, Region at 0x000002A93BAFFDA8>
+region_data None
+scene <bpy_struct, Scene("Scene")>
+screen <bpy_struct, Screen("Animation")>
+sculpt_object None
+selectable_objects [bpy.data.objects['Cube'], bpy.data.objects['Light'], bpy.data.objects['Camera']]
+selected_bones None
+selected_editable_bones None
+selected_editable_fcurves None
+selected_editable_objects []
+selected_editable_sequences []
+selected_nla_strips None
+selected_objects []
+selected_pose_bones None
+selected_pose_bones_from_active_object None
+selected_sequences []
+selected_visible_fcurves None
+sequences []
+space_data <bpy_struct, SpaceTextEditor at 0x000002A93BB02BD8>
+tool_settings <bpy_struct, ToolSettings at 0x000002A93BAFB0D8>
+vertex_paint_object None
+view_layer <bpy_struct, ViewLayer("View Layer")>
+visible_bones None
+visible_fcurves None
+visible_gpencil_layers None
+visible_objects [bpy.data.objects['Cube'], bpy.data.objects['Light'], bpy.data.objects['Camera']]
+visible_pose_bones None
+weight_paint_object None
+window <bpy_struct, Window at 0x000002A93B984058>
+window_manager <bpy_struct, WindowManager("WinMan")>
+workspace <bpy_struct, WorkSpace("Animation")>

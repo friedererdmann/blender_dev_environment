@@ -1,0 +1,19 @@
+area <bpy_struct, Area at 0x000001FA1E3FE658>
+blend_data <bpy_struct, BlendData at 0x000001FA2171E988>
+collection <bpy_struct, Collection("Collection")>
+engine BLENDER_EEVEE
+evaluated_depsgraph_get <bpy_func Context.evaluated_depsgraph_get()>
+gizmo_group None
+layer_collection <bpy_struct, LayerCollection("Collection")>
+mode OBJECT
+preferences <bpy_struct, Preferences at 0x00007FF65E624BA0>
+region <bpy_struct, Region at 0x000001FA2172BA38>
+region_data None
+scene <bpy_struct, Scene("Scene")>
+screen <bpy_struct, Screen("Animation")>
+space_data <bpy_struct, SpaceView3D at 0x00000299AFC39A98>
+tool_settings <bpy_struct, ToolSettings at 0x000001FA21726F08>
+view_layer <bpy_struct, ViewLayer("View Layer")>
+window <bpy_struct, Window at 0x000001FA215AD6E8>
+window_manager <bpy_struct, WindowManager("WinMan")>
+workspace <bpy_struct, WorkSpace("Animation")>
