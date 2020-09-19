@@ -65,17 +65,19 @@ def export_fbx():
                         ctx['region'] = region
                         ctx['workspace'] = bpy.data.workspaces[screen.name]
                         ctx['space_data'] = area.spaces[0]
-                        # stop = True
                         ctx['scene'] = bpy.data.scenes[0]
                         ctx['window'] = bpy.data.window_managers[0].windows[0]
                         ctx['window_manager'] = bpy.data.window_managers[0]
                         ctx['active_object'] = bpy.data.objects['Cube']
-                        bpy.ops.object.mode_set(ctx)
-                        location = "C:\\users\\Frieder Erdmann\\desktop\\test.fbx"
-                        #try:
-                        #    bpy.ops.export_scene.fbx(ctx, filepath=location)
-                        #except RuntimeError:
-                        #    pass
+                        print(screen.name)
+                        try:
+                            bpy.ops.object.mode_set(ctx)
+                            print('succeeded')
+                            stop = True
+                        except RuntimeError:
+                            print('failed')
+    location = "C:\\users\\Frieder\\desktop\\test.fbx"
+    bpy.ops.export_scene.fbx(ctx, filepath=location)
 
 
 def demo():
