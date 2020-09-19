@@ -68,7 +68,9 @@ def export_fbx():
                         ctx['scene'] = bpy.data.scenes[0]
                         ctx['window'] = bpy.data.window_managers[0].windows[0]
                         ctx['window_manager'] = bpy.data.window_managers[0]
-                        ctx['active_object'] = bpy.data.objects['Cube']
+                        for obj in bpy.data.objects:
+                            if obj.select_get():
+                                ctx['active_object'] = obj
                         print(screen.name)
                         try:
                             bpy.ops.object.mode_set(ctx)
