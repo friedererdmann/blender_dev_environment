@@ -1,7 +1,7 @@
 echo off
-set BLENDER_DIR=C:\Program Files\Blender Foundation\Blender 2.83
+set BLENDER_DIR=C:\Program Files\Blender Foundation\Blender 2.90
 set BLENDER="%BLENDER_DIR%\blender.exe"
-set BLENDER_PYTHON="%BLENDER_DIR%\2.83\python\bin"
+set BLENDER_PYTHON="%BLENDER_DIR%\2.90\python\bin"
 
 set PATH=%BLENDER_PYTHON%;%PATH%
 call "%~dp0create_env.bat"
